@@ -1,0 +1,48 @@
+/* MAP - Exercice 2
+
+Ecrire une fonction getFoodCategories qui reçoit comme un argument un tableau
+d'objets.
+Chaque objet a deux propriétés:
+  - `food` le nom d'un produit alimentaire
+  - `isVegetarian` un booléen indiquant si le produit convient aux végétariens
+La fonction getFoodCategories doit renvoyer un tableau contenant,
+pour chaque objet d'entrée:
+- la chaîne "FOOD is suitable for vegetarians"
+OU
+- la chaîne "FOOD is not suitable for vegetarians"
+en fonction de la valeur de la propriété `isVegetarian`, en remplaçant FOOD
+par le nom du produit
+
+Entrée:
+  [
+    {
+      food: 'Bacon',
+      isVegetarian: false
+    },
+    {
+      food: 'Sausage',
+      isVegetarian: false
+    },
+    {
+      food: 'Tofu',
+      isVegetarian: true
+    },
+    {
+      food: 'Chick Pea',
+      isVegetarian: true
+    }
+  ]
+
+Sortie attendue: [
+  'Bacon is not suitable for vegetarians',
+  'Sausage is not suitable for vegetarians',
+  'Tofu is suitable for vegetarians',
+  'Chick Pea is suitable for vegetarians'
+]
+ */
+
+//WRITE YOUR FUNCTION HERE
+
+
+//DO NOT TOUCH THIS CODE
+console.log(getFoodCategories([{food: 'Bacon',isVegetarian: false},{food: 'Sausage',isVegetarian: false},{food: 'Tofu',isVegetarian: true},{food: 'Chick Pea',isVegetarian: true}]));

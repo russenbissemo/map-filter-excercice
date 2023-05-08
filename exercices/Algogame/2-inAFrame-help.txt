@@ -1,0 +1,19 @@
+In a frame | Petit coup de main (en cas de coup dur...)
+
+1) Est-ce que la chaîne de caractères est le type de données
+le plus facile à manipuler dans ce contexte ? Est-ce qu'il ne
+vaudrait mieux pas la manipuler sous une autre forme ?
+
+2) Pour que la longueur des différents mots de la chaîne de 
+caractères n'affecte pas les dimensions du cadre, il va te 
+falloir une information importante concernant la chaîne de 
+caractères passée en paramètre. Quelle est-elle ?
+
+3) Une petite astuce qui aide vraiment : essaie de faire 
+le cadre vide d'abord, dans les bonnes dimensions en 
+fonction de la chaîne de caractères. De la même façon,
+remplacer les espaces par des points peu aider à mieux 
+visualiser...
+
+4) Si tu as toujours du mal, n'hésite pas à solliciter 
+ton formateur !
